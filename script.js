@@ -14,6 +14,7 @@ function beforesubmit(event) {
     }
 }
 
+
 function timestamp() { 
 var response = document.getElementById("g-recaptcha-response"); 
 if (response == null || response.value.trim() == "") {
