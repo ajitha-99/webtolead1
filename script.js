@@ -8,7 +8,7 @@ function beforesubmit(event) {
    outputdate.value = formattedDate;
    console.log(outputdate.value);
     }else{
-        alert('Please check the reCAPTCHA checkbox' );
+        alert("Please check the reCAPTCHA checkbox");
         event.preventDefault(); // it will prevent the submission of the form
 
     }
