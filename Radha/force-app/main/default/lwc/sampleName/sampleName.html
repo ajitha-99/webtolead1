@@ -1,0 +1,33 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 07-22-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card title ="Creating my own component for practice" icon-name="custom:custom14">
+        <!-- inputs -->
+        <div class="slds-var-p-around_small">
+    <lightning-input 
+            label="First Name"
+            name="fname"
+            placeholder="Enter your First Name"
+            onchange={nameChangeHandler}>
+        </lightning-input>
+    <lightning-input
+             label="Last Name"
+            name="lname"
+            placeholder="Enter your Last Name"
+            onchange={nameChangeHandler}>
+        </lightning-input>
+            </div>
+            <div class="slds-var-p-around_small">
+                <lightning-button 
+                    label="Full Name"
+                    variant ="brand"
+                     onclick={clickHandler}>
+                </lightning-button>
+            </div>
+    </lightning-card>
+</template>
