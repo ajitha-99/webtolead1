@@ -20,6 +20,6 @@ export default class NestedObjectPrivateProperties extends LightningElement {
     RefreshHandler(event){
         this.myDetails = {fname: "Hare", lname: "Radha"};
         this.myDetails = {...this.myDetails, age:30};
-        this.myTask =[...this.myTask, "Self Study"]
+        this.myTask =[...this.myTask, "Self Study"];
     }
 }

@@ -71,7 +71,7 @@ whenever we have to access the properties in any method irrespective of the prop
 
 --from one component you have to pass data from filter component and do display the component that is from parent component to child component.
 
--- when we want display the text form the private property that is our parent component to the public property that is our child component then go for formatted text from the out of the box  component library and display the text that is from the private property.
+-- when we want display the text from the private property that is our parent component to the public property that is our child component then go for formatted text from the out of the box  component library and display the text that is from the private property.
 
 //getter
 

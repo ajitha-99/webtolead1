@@ -12,6 +12,8 @@
     <lightning-input 
             label="First Name"
             name="fname"
+            required="true"
+            value={firstname}
             placeholder="Enter your First Name"
             onchange={nameChangeHandler}>
         </lightning-input>
@@ -19,9 +21,11 @@
              label="Last Name"
             name="lname"
             placeholder="Enter your Last Name"
+            value={lastname}
             onchange={nameChangeHandler}>
         </lightning-input>
             </div>
+            <!--end of inputs-->
             <div class="slds-var-p-around_small">
                 <lightning-button 
                     label="Full Name"
@@ -29,5 +33,12 @@
                      onclick={clickHandler}>
                 </lightning-button>
             </div>
+           
+                <template lwc:if={display}>
+                     <div class="slds-var-p-around_small">
+                    <p>Full Name is {result}</p>
+                    </div>
+                </template>
+            
     </lightning-card>
 </template>
